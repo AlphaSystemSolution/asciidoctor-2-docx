@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:styles xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          mc:Ignorable="w14 w15">
+    <w:style w:type="paragraph" w:customStyle="1" w:styleId="SideBarTitle">
+        <w:name w:val="SideBar Title"/>
+        <w:basedOn w:val="Normal"/>
+        <w:link w:val="SideBarTitleChar"/>
+        <w:qFormat/>
+        <w:rsid w:val="00F31842"/>
+        <w:pPr>
+            <w:spacing w:before="120" w:after="280"/>
+            <w:jc w:val="center"/>
+        </w:pPr>
+        <w:rPr>
+            <w:rFonts w:ascii="Century" w:hAnsi="Century"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="32"/>
+            <w:szCs w:val="32"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:customStyle="1" w:styleId="SideBarTitleChar">
+        <w:name w:val="SideBar Title Char"/>
+        <w:basedOn w:val="DefaultParagraphFont"/>
+        <w:link w:val="SideBarTitle0"/>
+        <w:rsid w:val="00F31842"/>
+        <w:rPr>
+            <w:rFonts w:ascii="Century" w:hAnsi="Century"/>
+            <w:b/>
+            <w:bCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="32"/>
+            <w:szCs w:val="32"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:customStyle="1" w:styleId="ExampleTitle">
+        <w:name w:val="ExampleTitle"/>
+        <w:basedOn w:val="Normal"/>
+        <w:next w:val="Normal"/>
+        <w:link w:val="ExampleTitleChar"/>
+        <w:uiPriority w:val="9"/>
+        <w:unhideWhenUsed/>
+        <w:qFormat/>
+        <w:rsid w:val="00BC0CAB"/>
+        <w:pPr>
+            <w:keepNext/>
+            <w:keepLines/>
+        </w:pPr>
+        <w:rPr>
+            <w:i/>
+            <w:iCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="24"/>
+            <w:szCs w:val="24"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:customStyle="1" w:styleId="ExampleTitleChar">
+        <w:name w:val="Example Title Char"/>
+        <w:basedOn w:val="DefaultParagraphFont"/>
+        <w:link w:val="ExampleTitle"/>
+        <w:rsid w:val="00BC0CAB"/>
+        <w:rPr>
+            <w:i/>
+            <w:iCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="24"/>
+            <w:szCs w:val="24"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableTitle">
+        <w:name w:val="Table Title"/>
+        <w:basedOn w:val="Normal"/>
+        <w:next w:val="Normal"/>
+        <w:link w:val="TableTitleChar"/>
+        <w:uiPriority w:val="9"/>
+        <w:unhideWhenUsed/>
+        <w:qFormat/>
+        <w:rsid w:val="00BC0CAB"/>
+        <w:pPr>
+            <w:keepNext/>
+            <w:keepLines/>
+        </w:pPr>
+        <w:rPr>
+            <w:i/>
+            <w:iCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="24"/>
+            <w:szCs w:val="24"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:customStyle="1" w:styleId="TableTitleChar">
+        <w:name w:val="Table Title Char"/>
+        <w:basedOn w:val="DefaultParagraphFont"/>
+        <w:link w:val="ExampleTitle"/>
+        <w:rsid w:val="00BC0CAB"/>
+        <w:rPr>
+            <w:i/>
+            <w:iCs/>
+            <w:color w:val="7A2518"/>
+            <w:sz w:val="24"/>
+            <w:szCs w:val="24"/>
+        </w:rPr>
+    </w:style>
+    <w:style w:type="table" w:styleId="AdmonitionTable" w:customStyle="true">
+        <w:name w:val="Admonition Table"/>
+        <w:basedOn w:val="TableNormal"/>
+        <w:uiPriority w:val="47"/>
+        <w:rsid w:val="2B01FAD4"/>
+        <w:pPr>
+            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+        </w:pPr>
+        <w:tblPr>
+            <w:tblBorders>
+                <w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:insideH w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:insideV w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+            </w:tblBorders>
+        </w:tblPr>
+        <w:tblStylePr w:type="firstCol">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+            </w:rPr>
+            <w:tcPr>
+                <w:tcBorders>
+                    <w:right w:val="single" w:color="808080" w:sz="2" w:space="2"/>
+                </w:tcBorders>
+                <w:shd w:val="clear" w:color="auto" w:fill="F8F8F7"/>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+        </w:tblStylePr>
+        <w:tblStylePr w:type="lastCol">
+            <w:tcPr>
+                <w:tcBorders>
+                    <w:left w:val="single" w:color="2C2C2C" w:sz="4" w:space="0"/>
+                </w:tcBorders>
+                <w:shd w:val="clear" w:color="auto" w:fill="F8F8F7"/>
+            </w:tcPr>
+        </w:tblStylePr>
+    </w:style>
+    <w:style w:type="table" w:styleId="HorizontalList" w:customStyle="true">
+        <w:name w:val="Horizontal List"/>
+        <w:basedOn w:val="TableNormal"/>
+        <w:uiPriority w:val="47"/>
+        <w:rsid w:val="3E0C5B55"/>
+        <w:pPr>
+            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+        </w:pPr>
+        <w:tblPr>
+            <w:tblBorders>
+                <w:top w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:bottom w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:insideH w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+                <w:insideV w:val="none" w:color="auto" w:sz="0" w:space="0"/>
+            </w:tblBorders>
+        </w:tblPr>
+        <w:tblStylePr w:type="firstCol">
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+            </w:rPr>
+        </w:tblStylePr>
+    </w:style>
+    <w:style w:type="table" w:styleId="TableGrid1" w:customStyle="true">
+        <w:name w:val="Table Grid With Header"/>
+        <w:basedOn w:val="TableNormal"/>
+        <w:uiPriority w:val="48"/>
+        <w:rsid w:val="60BE864B"/>
+        <w:pPr>
+            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+        </w:pPr>
+        <w:tblPr>
+            <w:tblBorders>
+                <w:top w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:left w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:bottom w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:right w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideH w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideV w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+            </w:tblBorders>
+        </w:tblPr>
+        <w:tblStylePr w:type="firstRow">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:color w:val="099BDD" w:themeColor="text2"/>
+            </w:rPr>
+            <w:tcPr>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+        </w:tblStylePr>
+    </w:style>
+    <w:style w:type="table" w:styleId="TableGrid2" w:customStyle="true">
+        <w:name w:val="Table Grid With Footer"/>
+        <w:basedOn w:val="TableNormal"/>
+        <w:uiPriority w:val="49"/>
+        <w:rsid w:val="45094091"/>
+        <w:pPr>
+            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+        </w:pPr>
+        <w:tblPr>
+            <w:tblBorders>
+                <w:top w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:left w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:bottom w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:right w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideH w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideV w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+            </w:tblBorders>
+        </w:tblPr>
+        <w:tblStylePr w:type="lastRow">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:color w:val="099BDD" w:themeColor="text2"/>
+            </w:rPr>
+            <w:tcPr>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+        </w:tblStylePr>
+    </w:style>
+    <w:style w:type="table" w:styleId="TableGrid3" w:customStyle="true">
+        <w:name w:val="Table Grid With Header And Footer"/>
+        <w:basedOn w:val="TableNormal"/>
+        <w:uiPriority w:val="49"/>
+        <w:rsid w:val="A289E8AB"/>
+        <w:pPr>
+            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+        </w:pPr>
+        <w:tblPr>
+            <w:tblBorders>
+                <w:top w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:left w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:bottom w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:right w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideH w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+                <w:insideV w:val="single" w:color="2C2C2C" w:themeColor="text1" w:sz="4" w:space="0"/>
+            </w:tblBorders>
+        </w:tblPr>
+        <w:tblStylePr w:type="firstRow">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:color w:val="099BDD" w:themeColor="text2"/>
+            </w:rPr>
+            <w:tcPr>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+        </w:tblStylePr>
+        <w:tblStylePr w:type="lastRow">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:rPr>
+                <w:rStyle w:val="Strong"/>
+                <w:color w:val="099BDD" w:themeColor="text2"/>
+            </w:rPr>
+            <w:tcPr>
+                <w:vAlign w:val="center"/>
+            </w:tcPr>
+        </w:tblStylePr>
+    </w:style>
+</w:styles>
